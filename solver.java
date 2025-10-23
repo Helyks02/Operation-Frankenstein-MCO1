@@ -389,8 +389,8 @@ public class SokoBot{
         return false;
     }
 
-    public String solveSokobanPuzzle(int width, int height, char[][] mapData, char[][] itemsData){
-        public String solveSokobanPuzzle(int width, int height, char[][] mapData, char[][] itemsData) {
+    
+public String solveSokobanPuzzle(int width, int height, char[][] mapData, char[][] itemsData) {
     // Directions (u, d, l, r)
     int[] dx = {0, 0, -1, 1};
     int[] dy = {-1, 1, 0, 0};
